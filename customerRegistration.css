@@ -1,0 +1,188 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2em;
+    background: linear-gradient (white, navajo white);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1000% 150%;
+    padding: 0em;
+}
+
+main {
+    width: 34.5em;
+    margin: 0 auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: .5em;
+    padding-bottom: 1em;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 5px;
+}
+
+h1 {
+    color: #f69b01;
+    text-shadow: 2px 2px black;
+    text-align: center;
+    margin-bottom: 0em;
+    padding-bottom: .3em;
+}
+h3 {
+    text-align: center;
+}
+
+select {
+    width: 205px;
+    margin-bottom: .5em;
+}
+
+.topmenu {
+    border: 1px solid black;
+    background-color: #800000;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: .8em;
+    margin-right: .1em;
+    margin-bottom: 1em;
+    text-align: center;
+    width: 77px;
+}
+
+.menuname {
+    color: white;
+    font-size: 15px;
+}
+
+.footer {
+    float: right;
+}
+fieldset{
+    border-color: azure;
+}
+
+legend {
+    color: #218221;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: left;
+}
+
+#data input {
+    width: 15em;
+    margin-bottom: .5em;
+}
+
+.inputBoxes {
+    border-color: #6f8580;
+}
+
+.error_return{
+    color: blue;
+    text-decoration: underline;
+}
+
+legend {
+    padding-left: 0em;
+    font-size: 12px;
+}
+
+#data span {
+    padding-left: .25em;
+}
+
+span {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+label {
+    width: 9em;
+    display: inline-block;
+    text-align: right;
+}
+
+.bottombuttons {
+    margin: auto;
+    padding-left: 9.3em;
+}
+
+#buttons input {
+    margin-bottom: .5em;
+    margin-right: .5em;
+    width: 8em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+br {
+    clear: left;
+}
+
+.return_button {
+    left: 50%;
+}
+ul {
+    list-style: none;
+}
+
+li {
+    color: white;
+    list-style-type: none;
+}
+
+.menu {
+    width: 60em;
+    padding-left: .1em;
+}
+
+.menu > li {
+    float: left;
+}
+.menu button {
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}
+.menu button:hover, .menu button:focus {
+    outline: 0;
+    color: yellow;
+}
+
+.menu button:hover + .submenu{
+    outline: 0;
+    color: yellow;
+    display: block;
+}
+
+.divSizing {
+   
+    height: auto; 
+    width: 1000px;
+    margin: 0 auto; 
+}
+
+footer {
+    font-size: 11px;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    padding: 10px;
+    background: orange;
+    display: none;
+    min-width: 100px;
+    z-index: 1;
+}
+
+.menu button:focus + .submenu,
+.submenu:hover {
+    display: block;
+}
+
+
